@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.todowindow{
+	margin-top: 10%;
+	margin-left: 30%;
+	border: 1px solid #efefef;
+	border-radius: 1%;
+	width: 40%;
+	height: auto;
+	background: #efefef;
+	box-shadow: 3px 3px 2px #afafaf;
+}
+
+.AddForm{
+	margin-left: 5%;
+	width: 90%;
+}
+
+label{
+	margin-left: 10px;
+}
+
+.inputTB{
+	margin-top: 10px;
+	margin-left: 3%;
+	height: 30px;
+	width: 70%;
+	border: 1px solid #afafaf;
+	border-radius: 3%;
+	text-align: center;
+}
+
+#addButton{
+	float: right;
+	margin-top: 10px;
+	/* margin-right: 3%; */
+	width: 15%;
+	height: 33px;
+	background: #5796f9;
+	border: 1px solid #5796f9;
+	border-radius: 3%;
+}
+
+ul{
+	border: 1px solid #efefef;
+	margin-left: 5%;
+	width: 90%;
+	padding: 0px;
+}
+
+li{
+	background: white;
+	margin-left: 5%;
+	border:1px solid #afafaf;
+	width: 90%;
+	height: 30px;
+	border-radius: 1%;
+	text-align: center;
+	padding: 10px;
+	list-style-type: none;
+}
+
+img{
+	float: right;
+	margin-right: 2%;
+	width: 30px;
+	height: 30px;
+}
+
+.item{
+	display: inline;
+	width: 70%;
+}
+
+.EditForm{
+	margin-top: -12px;
+	width: 100%;
+}
+
+.EditinputTB{
+	margin-top: 10px;
+	/*margin-left: 2%;*/
+	height: 30px;
+	width: 70%;
+	border: 1px solid #afafaf;
+	border-radius: 3%;
+	text-align: center;
+}
+
+.EditForm img{
+	margin-top: 10px;
+}
+
+.SaveButton{
+	float: right;
+	margin-right: 2%;
+	margin-top: 10px;
+	padding: 0px;
+	width: 30px;
+	height: 30px;
+	border: none;
+	border-radius: 50%;
+	background: white;
+}
+
+.SaveButton img{
+	margin: 0px;
+}
+.footer{
+	width: 90%;
+	text-align: center;
+}
