@@ -12,7 +12,7 @@ class ToDoList extends React.Component{
         if(!task.edit){
             return(
                 <ToDo
-                    key={task.text}
+                    key={task.id}
                     task={task}
                     {...this.props}/>
             )
@@ -20,7 +20,7 @@ class ToDoList extends React.Component{
         else {
             return(
                 <Edit
-                    key={task.text}
+                    key={task.id}
                     task={task}
                     {...this.props}/>
             )
@@ -29,7 +29,7 @@ class ToDoList extends React.Component{
 
     render(){
     if(this.props.tasks.last())
-        return <div>
+        return <div className="TipaUl">
         {this.props.tasks.map(item =>
             this.ShowTask(item)
         )}

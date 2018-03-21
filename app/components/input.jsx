@@ -38,9 +38,9 @@ class Input extends React.Component{
     }
 
     render() {
-        return <div>
-                <input ref="TaskInput" onKeyDown={this.onPressKey.bind(this)}/>
-                <button onClick = {this.onClick.bind(this)}>Добавить</button>
+        return <div className="AddForm">
+                <input className="inputTB" ref="TaskInput" onKeyDown={this.onPressKey.bind(this)}/>
+                <button id="addButton" onClick = {this.onClick.bind(this)}>Добавить</button>
             </div>
     }
 };

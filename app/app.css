@@ -1,10 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-.todowindow{
+.Btn{
+	display: inline-block;
+	margin: 5px 10px 10px;
+}
+
+.Btn button{
+	background: #5796f9;
+	border: 1px solid #5796f9;
+	padding: 4px;
+}
+
+.block_all{
+	text-align: center;
 	margin-top: 10%;
 	margin-left: 30%;
 	border: 1px solid #efefef;
@@ -18,6 +35,7 @@ body {
 .AddForm{
 	margin-left: 5%;
 	width: 90%;
+	margin-bottom: 20px;
 }
 
 label{
@@ -38,14 +56,14 @@ label{
 	float: right;
 	margin-top: 10px;
 	/* margin-right: 3%; */
-	width: 15%;
+	width: 20%;
 	height: 33px;
 	background: #5796f9;
 	border: 1px solid #5796f9;
 	border-radius: 3%;
 }
 
-ul{
+.TipaUl{
 	border: 1px solid #efefef;
 	margin-left: 5%;
 	width: 90%;
@@ -54,7 +72,7 @@ ul{
 
 li{
 	background: white;
-	margin-left: 5%;
+	margin-left: 2%;
 	border:1px solid #afafaf;
 	width: 90%;
 	height: 30px;
@@ -71,7 +89,7 @@ img{
 	height: 30px;
 }
 
-.item{
+.todo_block{
 	display: inline;
 	width: 70%;
 }
@@ -79,6 +97,11 @@ img{
 .EditForm{
 	margin-top: -12px;
 	width: 100%;
+}
+
+a{
+	text-align: center;
+	padding: 10px;
 }
 
 .EditinputTB{
