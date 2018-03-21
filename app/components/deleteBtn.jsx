@@ -10,7 +10,7 @@ class DeleteBtn extends React.Component {
     }
 
     render(){
-        return <div>
+        return <div className="Btn">
             <button onClick={this.DeleteTask.bind(this)}>Удалить</button>
         </div>
     }

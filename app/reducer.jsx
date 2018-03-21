@@ -14,7 +14,6 @@ var reducer = function(state = Map(), action) {
         );
     case "CHANGE_STATE_TASK":
         return state.update("tasks",(tasks) => {
-            console.log(tasks);
             let objIndex = tasks.findIndex((obj => obj.id == action.id));
             tasks._tail.array[objIndex].done = !tasks._tail.array[objIndex].done;
             return tasks;

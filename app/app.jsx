@@ -4,7 +4,7 @@ var redux = require("redux");
 var Provider = require("react-redux").Provider;
 var reducer = require("./reducer.jsx");
 var AppView = require("./components/appView.jsx");
-// import style from './app.css'
+import './app.css';
 const enhancers = redux.compose(
 	window.devToolsExtension ? window.devToolsExtension() : f => f
 );

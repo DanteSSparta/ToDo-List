@@ -11,7 +11,7 @@ class AppView extends React.Component {
   }
 
   render(){
-      return <div>
+      return <div className="block_all">
           <h2>ToDo List</h2>
           <Input {...this.props}/>
           <ToDoList {...this.props}/>
